@@ -1,0 +1,40 @@
+# NetBeans specific
+nbproject/
+nbbuild/
+nbdist/
+logs/
+var/cache/
+var/logs/
+var/metadata/
+var/views/
+nbactions.xml
+nb-configuration.xml
+
+
+# eclipse
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.buildpath
+ 
+# phpstorm
+.idea/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
