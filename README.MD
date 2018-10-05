@@ -1,16 +1,17 @@
 HMVC
 ----
+Phalcon HMVC Proyect Core
 
 Kukulcan
 ----
-Contien el Core para correr aplicacion
+Contains the Core to run applications in a modular way with phalcon via HMVC
 
 ## Requerimientos
 - Phalcon Version > 2.x
 
-### Configuracion de modulos
+### Configuration of modules
 
-Se debe definir los datos de los modulos emplear, cada modulo debera contener un bootstrap.php donde se crearan las opciones y servicios necesarios para arrancar.
+You must define the data of the modules to use, each module must contain a bootstrap.php where the options and services necessary to start up will be created.
 
 ```php
 array(
@@ -34,6 +35,10 @@ array(
 ```
 
 ## Bootstrap.php
+
+The services in the bootstrap are defined to start the application, register namespace, autoloaders, etc.
+Initially, only the view controller must be instantiated in order to use the core and the modules.
+You must be defined in the path ../modules/{moduleName}/Bootstrap.php...
 
 ```php
 /**
